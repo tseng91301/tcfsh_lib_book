@@ -1,0 +1,647 @@
+.mediaViewInfo {
+	--web-view-name: tcfsh_lib_book;
+	--web-view-id: tcfsh_lib_book;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: tcfsh_lib_book;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+::-webkit-scrollbar{
+	display: none;
+}
+#tcfsh_lib_book {
+	position: absolute;
+	width: 100%;
+	min-width: 1500px;
+	height: 1870px;
+	left: 0px;
+	top: 500px;
+	background-color: rgba(0,0,0,0.549);
+	overflow: scroll;
+	--web-view-name: tcfsh_lib_book;
+	--web-view-id: tcfsh_lib_book;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+#tcfsh_lib_book_top {
+	position: absolute;
+	width: 100%;
+	min-width: 1500px;
+	height: 400px;
+	left: 0px;
+	top: 0px;
+	overflow: initial;
+}
+#Group {
+	position: absolute;
+	width: 100%;
+	min-width: 1500px;
+	height: 400px;
+	left: 0px;
+	top: 0px;
+	overflow: initial;
+}
+#Rectangle_72 {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_72 {
+	position: absolute;
+	overflow: initial;
+	width: 100%;
+	min-width: 1500px;
+	height: 400px;
+	left: 0px;
+	top: 0px;
+}
+#tcfsh_lib_book_title {
+	position: absolute;
+	width: 1300px;
+	height: 100px;
+	left: 310px;
+	top: 70px;
+	overflow: initial;
+}
+#Group_v {
+	position: absolute;
+	width: 1300px;
+	height: 106px;
+	left: 0px;
+	top: -6px;
+	overflow: initial;
+}
+#Rectangle_75 {
+	fill: transparent;
+}
+.Rectangle_75 {
+	position: absolute;
+	overflow: initial;
+	width: 1300px;
+	height: 100px;
+	left: 0px;
+	top: 6px;
+}
+#TCFSH_Library_seat_booking_sys {
+	left: 25px;
+	top: 0px;
+	position: absolute;
+	overflow: initial;
+	width: 1251px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 70px;
+	color: rgba(255,255,255,1);
+}
+#tcfsh_lib_book_time {
+	position: absolute;
+	width: 950px;
+	height: 90px;
+	left: 485px;
+	top: 220px;
+	overflow: initial;
+}
+#Group_z {
+	position: absolute;
+	width: 950px;
+	height: 157px;
+	left: 0px;
+	top: 0px;
+	overflow: initial;
+}
+#Rectangle_76 {
+	fill: transparent;
+}
+.Rectangle_76 {
+	position: absolute;
+	overflow: initial;
+	width: 950px;
+	height: 90px;
+	left: 0px;
+	top: 0px;
+}
+#Time_Now {
+	left: 118px;
+	top: 23px;
+	position: absolute;
+	overflow: initial;
+	width: 715px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	color: rgba(255,255,255,1);
+}
+#tcfsh_lib_book_left {
+	position: absolute;
+	width: 960px;
+	height: 750px;
+	left: 0px;
+	top: 400px;
+	overflow: initial;
+}
+#Group_index {
+	position: absolute;
+	width: 960px;
+	height: 755px;
+	left: 0px;
+	top: 0px;
+	overflow: initial;
+}
+#Rectangle_73 {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_73 {
+	position: absolute;
+	overflow: initial;
+	width: 960px;
+	height: 755px;
+	left: 0px;
+	top: 0px;
+}
+#tcfsh_lib_book_booking {
+	position: absolute;
+	width: 960px;
+	height: 130px;
+	left: 0px;
+	top: 0px;
+	overflow: initial;
+}
+#Group_ba {
+	position: absolute;
+	width: 960px;
+	height: 130px;
+	left: 0px;
+	top: 0px;
+	overflow: initial;
+}
+#Booking {
+	left: 389px;
+	top: 32px;
+	position: absolute;
+	overflow: initial;
+	width: 183px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	color: rgba(255,255,255,1);
+}
+#Rectangle_77 {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_77 {
+	position: absolute;
+	overflow: initial;
+	width: 960px;
+	height: 130px;
+	left: 0px;
+	top: 0px;
+}
+#tcfsh_lib_book_selecttime {
+	position: absolute;
+	width: 960px;
+	height: 130px;
+	left: 0px;
+	top: 200px;
+	overflow: initial;
+}
+#Group_bb {
+	position: absolute;
+	width: 960px;
+	height: 130px;
+	left: 0px;
+	top: 0px;
+	overflow: initial;
+}
+#Rectangle_79 {
+	opacity: 0.4;
+	fill: transparent;
+}
+.Rectangle_79 {
+	position: absolute;
+	overflow: initial;
+	width: 960px;
+	height: 130px;
+	left: 0px;
+	top: 0px;
+}
+#Select_Date__ {
+	left: 90px;
+	top: 32px;
+	position: absolute;
+	overflow: initial;
+	width: 288px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	color: rgba(255,255,255,1);
+}
+#formselectdate{
+	width: 500px;
+	height: 40px;
+	border-radius: 6px;
+	background-color: #8affab;
+	font-size: 30px;
+}
+#tcfsh_lib_book_selectfloor {
+	position: absolute;
+	width: 960px;
+	height: 130px;
+	left: 0px;
+	top: 382px;
+	overflow: initial;
+	
+}
+#Group_be {
+	position: absolute;
+	width: 960px;
+	height: 130px;
+	left: 0px;
+	top: 0px;
+	overflow: initial;
+}
+#Rectangle_80 {
+	fill: transparent;
+}
+.Rectangle_80 {
+	position: absolute;
+	overflow: initial;
+	width: 960px;
+	height: 130px;
+	left: 0px;
+	top: 0px;
+}
+#Select_Floor___ {
+	left: 90px;
+	top: 28px;
+	position: absolute;
+	overflow: initial;
+	width: 310px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	color: rgba(255,255,255,1);
+	
+}
+#formselectfloor{
+	width: 500px;
+	height: 40px;
+	border-radius: 6px;
+	background-color: #8affab;
+	font-size: 30px;
+}
+#tcfsh_lib_book_left_confirm {
+	position: absolute;
+	width: 960px;
+	height: 130px;
+	left: 0px;
+	top: 547px;
+	overflow: initial;
+}
+#Group_bi {
+	position: absolute;
+	width: 960px;
+	height: 130px;
+	left: 0px;
+	top: 0px;
+	overflow: initial;
+}
+#Rectangle_82 {
+	fill: transparent;
+}
+.Rectangle_82 {
+	position: absolute;
+	overflow: initial;
+	width: 960px;
+	height: 130px;
+	left: 0px;
+	top: 0px;
+}
+#confirm_submit{
+	right: 50px;
+	position: absolute;
+	width: 300px;
+	height: 70px;
+	background-color: #a773d2;
+	color: white;
+	border-radius: 15px;
+	font-size: 45px;
+}
+#tcfsh_lib_book_right {
+	position: absolute;
+	width: 960px;
+	height: 750px;
+	left: 960px;
+	top: 400px;
+	overflow: initial;
+}
+#Group_bl {
+	position: absolute;
+	width: 960px;
+	height: 753px;
+	left: 0px;
+	top: 0px;
+	overflow: initial;
+}
+#Rectangle_74 {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_74 {
+	position: absolute;
+	overflow: initial;
+	width: 960px;
+	height: 753px;
+	left: 0px;
+	top: 0px;
+}
+#tcfsh_lib_book_check {
+	position: absolute;
+	width: 960px;
+	height: 130px;
+	left: 0px;
+	top: 1px;
+	overflow: initial;
+}
+#Group_bo {
+	position: absolute;
+	width: 960px;
+	height: 130px;
+	left: 0px;
+	top: 0px;
+	overflow: initial;
+}
+#Check__Cancel {
+	left: 307px;
+	top: 31px;
+	position: absolute;
+	overflow: initial;
+	width: 348px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	color: rgba(255,255,255,1);
+}
+#Rectangle_78 {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_78 {
+	position: absolute;
+	overflow: initial;
+	width: 960px;
+	height: 130px;
+	left: 0px;
+	top: 0px;
+}
+#tcfsh_lib_book_check_info {
+	position: absolute;
+	width: 705px;
+	height: 622px;
+	left: 128px;
+	top: 131px;
+	overflow: scroll;
+	font-size: 30px;
+}
+#tcfsh_lib_book_check_info #button{
+	width: 90px;
+	height: 30px;
+	background-color: #ff9e9e;
+	margin-right: 208px;
+	border-radius: 15px;
+
+}
+#Group_bs {
+	position: absolute;
+	width: 705px;
+	height: 622px;
+	left: 0px;
+	top: 0px;
+	overflow: initial;
+}
+#Rectangle_84 {
+	fill: transparent;
+}
+.Rectangle_84 {
+	position: absolute;
+	overflow: initial;
+	width: 705px;
+	height: 622px;
+	left: 0px;
+	top: 0px;
+}
+#tcfsh_lib_book_bottom {
+	position: absolute;
+	width: 100%;
+	min-width: 1500px;
+	height: 250px;
+	left: 0px;
+	top: 1150px;
+	overflow: initial;
+}
+#Group_bv {
+	position: absolute;
+	width: 100%;
+	min-width: 1500px;
+	height: 250px;
+	left: 0px;
+	top: 0px;
+	overflow: initial;
+}
+#Rectangle_81 {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_81 {
+	position: absolute;
+	overflow: initial;
+	width: 100%;
+	min-width: 1500px;
+	height: 250px;
+	left: 0px;
+	top: 0px;
+}
+#tcfsh_lib_book_option {
+	position: absolute;
+	width: 600px;
+	height: 90px;
+	left: 660px;
+	top: 0px;
+	overflow: initial;
+}
+#Group_by {
+	position: absolute;
+	width: 600px;
+	height: 90px;
+	left: 0px;
+	top: 0px;
+	overflow: initial;
+}
+#Rectangle_83 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_83 {
+	position: absolute;
+	overflow: initial;
+	width: 600px;
+	height: 90px;
+	left: 0px;
+	top: 0px;
+}
+#More_Options {
+	left: 147px;
+	top: 7px;
+	position: absolute;
+	overflow: initial;
+	width: 307px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	color: rgba(0,0,0,1);
+}
+#tcfsh_lib_book_reset {
+	position: absolute;
+	width: 558px;
+	height: 115px;
+	left: 220px;
+	top: 125px;
+	overflow: initial;
+}
+#Group_b {
+	position: absolute;
+	width: 558px;
+	height: 82px;
+	left: 0px;
+	top: 0px;
+	overflow: initial;
+}
+#Rectangle_85 {
+	fill: rgba(59,59,59,1);
+}
+.Rectangle_85 {
+	position: absolute;
+	overflow: initial;
+	width: 558px;
+	height: 82px;
+	left: 0px;
+	top: 0px;
+}
+#reset_booking_account {
+	left: 82px;
+	top: 9px;
+	position: absolute;
+	overflow: initial;
+	width: 395px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(255,255,255,1);
+}
+#tcfsh_lib_book_back {
+	position: absolute;
+	width: 558px;
+	height: 115px;
+	left: 1144px;
+	top: 125px;
+	overflow: initial;
+}
+#Group_ca {
+	position: absolute;
+	width: 558px;
+	height: 82px;
+	left: 0px;
+	top: 0px;
+	overflow: initial;
+}
+#Rectangle_86 {
+	fill: rgba(59,59,59,1);
+}
+.Rectangle_86 {
+	position: absolute;
+	overflow: initial;
+	width: 558px;
+	height: 82px;
+	left: 0px;
+	top: 0px;
+}
+#Back_to_Home {
+	left: 155px;
+	top: 10px;
+	position: absolute;
+	overflow: initial;
+	width: 249px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(255,255,255,1);
+}

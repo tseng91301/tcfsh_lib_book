@@ -1,0 +1,166 @@
+.mediaViewInfo {
+	--web-view-name: tcfsh_lib_account_register;
+	--web-view-id: tcfsh_lib_account_register;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: tcfsh_lib_account_register;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#tcfsh_lib_account_register {
+	position: absolute;
+	top: 450px;
+	left: 50%;
+	margin-left: -288px;
+	width: 577px;
+	height: 434px;
+	z-index: 4;
+	background-color: rgba(17,0,41,1);
+	overflow: hidden;
+	--web-view-name: tcfsh_lib_account_register;
+	--web-view-id: tcfsh_lib_account_register;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+#errorpos {
+	position: absolute;
+	width: 577px;
+	height: 84px;
+	left: 0px;
+	top: 0px;
+	overflow: hidden;
+	z-index: 1;
+}
+#Group {
+	position: absolute;
+	width: 577px;
+	height: 84px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_15 {
+	fill: rgba(17,0,41,1);
+}
+.Rectangle_15 {
+	position: absolute;
+	overflow: visible;
+	width: 577px;
+	height: 84px;
+	left: 0px;
+	top: 0px;
+}
+#Error_ {
+	left: 144px;
+	top: 26px;
+	position: absolute;
+	overflow: visible;
+	width: 291px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(255,0,0,1);
+}
+#formpos {
+	position: absolute;
+	width: 577px;
+	height: 350px;
+	left: 0px;
+	top: 84px;
+	overflow: hidden;
+}
+#Group_t {
+	position: absolute;
+	width: 434px;
+	height: 273px;
+	left: 89px;
+	top: 27px;
+	overflow: visible;
+}
+#confirm {
+	position: absolute;
+	width: 112px;
+	height: 54px;
+	left: 322px;
+	top: 219px;
+	overflow: hidden;
+}
+#Group_v {
+	position: absolute;
+	width: 112px;
+	height: 54px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#confirm_w {
+	position: absolute;
+	width: 112px;
+	height: 54px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#ssid {
+	position: absolute;
+	width: 400px;
+	height: 73px;
+	left: 0px;
+	top: 0px;
+	overflow: hidden;
+}
+#Group_y {
+	position: absolute;
+	width: 400px;
+	height: 73px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_42 {
+	fill: transparent;
+}
+.Rectangle_42 {
+	position: absolute;
+	overflow: visible;
+	width: 400px;
+	height: 73px;
+	left: 0px;
+	top: 0px;
+}
+#pass {
+	position: absolute;
+	width: 400px;
+	height: 73px;
+	left: 0px;
+	top: 113px;
+	overflow: hidden;
+}
+#Group_ {
+	position: absolute;
+	width: 400px;
+	height: 73px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_43 {
+	fill: transparent;
+}
+.Rectangle_43 {
+	position: absolute;
+	overflow: visible;
+	width: 400px;
+	height: 73px;
+	left: 0px;
+	top: 0px;
+}

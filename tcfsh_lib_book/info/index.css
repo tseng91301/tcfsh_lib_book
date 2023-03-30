@@ -1,0 +1,70 @@
+#page_i{
+    width: 600px;
+    height: auto;
+    background-color: #e8e8e8;
+    padding: 40px;
+    border-radius: 25px;
+    top: 60px;
+    position: absolute;
+    left: 50%;
+    margin-left: -300px;
+}
+#tcfsh_lib_book-top{
+    padding: 30px;
+    background-color: #a0ffd3;
+    border: 5px;
+        border-top-style: none;
+        border-right-style: none;
+        border-bottom-style: none;
+        border-left-style: none;
+    border-radius: 20px;
+    border-style: ridge;
+}
+#tcfsh_lib_book-book_session{
+    padding: 30px;
+    background-color: #b9fcff;
+    border: 5px;
+        border-top-style: none;
+        border-right-style: none;
+        border-bottom-style: none;
+        border-left-style: none;
+    border-radius: 20px;
+    border-style: ridge;
+}
+#tcfsh_lib_book-book_session button{
+    padding: 10px;
+    width: 130px;
+    font-size: 16px;
+    position: absolute;
+    right: 120px;
+    background-color: aqua;
+    border: 3px;
+        border-top-style: none;
+        border-right-style: none;
+        border-bottom-style: none;
+        border-left-style: none;
+    border-radius: 10px;
+    border-style: groove;
+}
+#tcfsh_lib_book-check_session{
+    padding: 30px;
+    background-color: #fbd8cd;
+    border: 5px;
+        border-top-style: none;
+        border-right-style: none;
+        border-bottom-style: none;
+        border-left-style: none;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-radius: 20px;
+    border-style: ridge;
+    margin-top: 40px;
+}
+#tcfsh_lib_book-check_session input{
+    width: 100px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
